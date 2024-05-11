@@ -1,0 +1,4 @@
+{
+    "google_compute_network": "projects/{{project}}/global/networks/{{name}}",
+    "google_compute_subnetwork": "projects/{{project}}/regions/{{region}}/subnetworks/{{name}}"
+}

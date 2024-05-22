@@ -2,7 +2,7 @@
     "google_compute_network": {"id": "projects/{{project}}/global/networks/{{name}}","change": {}},
     "google_compute_subnetwork": {"id": "projects/{{project}}/regions/{{region}}/subnetworks/{{name}}","change": {}},
     "google_compute_network_peering": {"id": "{{network}}/{{name}}", "change": {"projects/": "", "/global/networks/": "/"}},
-
+    "google_compute_attached_disk": {"id": "projects/{{project}}/zones/{{zone}}/instances/{{instance}}/{{disk}}", "change": {"instances/projects/[^/]+/zones/[^/]+/instances/": "instances/", "projects/[^/]+/zones/[^/]+/disks/": ""}},
 
     "__start__AlloyDB": "************AlloyDB*************",
     "google_alloydb_backup": {"id": "projects/{{project}}/locations/{{location}}/backups/{{backup_id}}","change": {}},

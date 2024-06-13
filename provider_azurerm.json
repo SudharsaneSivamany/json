@@ -36,5 +36,5 @@
     "azurerm_network_interface_backend_address_pool_association": {"id": "{{network_interface_id}}/ipConfigurations/{{ip_configuration_name}}|{{backend_address_pool_id}}", "change": {}},
     "azurerm_application_gateway": {"id": "/subscriptions/{{subscription_id}}/resourceGroups/{{resource_group_name}}/providers/Microsoft.Network/applicationGateways/{{name}}", "change": {}},
     "azurerm_network_interface_application_gateway_backend_address_pool_association": {"id": "{{network_interface_id}}/ipConfigurations/{{ip_configuration_name}}|{{backend_address_pool_id}}", "change": {}},
-    "azurerm_private_endpoint": {"id": "/subscriptions/{{subscription_id}}/resourceGroups/{{resource_group_name}}/providers/Microsoft.Network/privateEndpoints/{{name}}"}
+    "azurerm_private_endpoint": {"id": "/subscriptions/{{subscription_id}}/resourceGroups/{{resource_group_name}}/providers/Microsoft.Network/privateEndpoints/{{name}}", "change": {}}
 }

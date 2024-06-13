@@ -22,7 +22,7 @@
     "azurerm_sql_managed_instance": {"id": "/subscriptions/{{subscription_id}}/resourceGroups/{{resource_group_name}}/providers/Microsoft.Sql/managedInstances/{{name}}", "change": {}},
     "azurerm_mssql_managed_instance": {"id": "/subscriptions/{{subscription_id}}/resourceGroups/{{resource_group_name}}/providers/Microsoft.Sql/managedInstances/{{name}}", "change": {}},
     "azurerm_mssql_managed_database": {"id": "{{managed_instance_id}}/databases/{{name}}", "change": {}},
-    "azurerm_mssql_managed_instance_active_directory_administrator": {"id": "{{managed_instance_id}}/administrators/{{login_username}}", "change": {}},
+    "azurerm_mssql_managed_instance_active_directory_administrator": {"id": "{{managed_instance_id}}/administrators/activeDirectory", "change": {}},
     "azurerm_sql_managed_database": {"id": "{{sql_managed_instance_id}}/databases/{{name}}", "change": {}},
     "azurerm_ssh_public_key": {"id": "/subscriptions/{{subscription_id}}/resourceGroups/{{resource_group_name}}/providers/Microsoft.Compute/sshPublicKeys/{{name}}", "change": {}},
     "azurerm_lb": {"id": "/subscriptions/{{subscription_id}}/resourceGroups/{{resource_group_name}}/providers/Microsoft.Network/loadBalancers/{{name}}", "change": {}},

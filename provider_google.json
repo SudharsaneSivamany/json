@@ -1,4 +1,14 @@
 {
+    "__start__GoogleWorkspace": "************Google Workspace*************",
+    "googleworkspace_domain": {"id": "{{domain_name}}","change": {}},
+    "googleworkspace_domain_alias": {"id": "{{domain_alias_name}}","change": {}},
+    "googleworkspace_gmail_send_as_alias": {"id": "{{primary_email}}:{{send_as_email}}","change": {}},
+    "googleworkspace_group": {"id": "{{email}}","change": {}},
+    "googleworkspace_group_members": {"id": "groups/{{group_id}}","change": {}},
+    "googleworkspace_group_settings": {"id": "{{email}}","change": {}},
+    "googleworkspace_user": {"id": "{{primary_email}}","change": {}},
+    "__stop__GoogleWorkspace": "************Google Workspace*************",
+
     "google_compute_network": {"id": "projects/{{project}}/global/networks/{{name}}","change": {}},
     "google_compute_subnetwork": {"id": "projects/{{project}}/regions/{{region}}/subnetworks/{{name}}","change": {}},
     "google_compute_network_peering": {"id": "{{network}}/{{name}}", "change": {"projects/": "", "/global/networks/": "/"}},
